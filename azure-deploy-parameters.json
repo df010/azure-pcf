@@ -1,0 +1,30 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "storageAccountName": {
+      "value": "pcfdisks176"
+    },
+    "adminSSHKey": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDPuMVwJwOhCR5Tq6EF7DKtkmL9nUFyczGuYDNPEZ40hduVH+iS7PphFArJ4Xg2HuOtOm8XUnWS0i5br2by/v7oFCv52+eIWSKIRK/T5wOPQiCCsEYUBVALIv0RJChil1p6JRvt77K4LiNx21y1U9vhJbnWsuzjz0fOaddASEZOlSPvrdBKoCLaNaEtsnpAHDIMXY3s5x2L9WBRU6yVQtfPTH5w/1ZG3ASNP2wb6t6de8IfkxeEIf11Wq9WhGGvk3cCZcR/o3bJdVQJzGbsQwAYvLgBmAzo3NBPb09Ohzkk7Oh9cRldZcxfh3PP7b38UvksKDcJVyKnLgSHLKxrJZk/ df@df-go"
+    },
+    "tenantID": {
+      "value": "29248f74-371f-4db2-9a50-c62a6877a0c1"
+    },
+    "clientID": {
+      "value": "c1c41a8e-cbcb-4f08-a1e5-c9afa3305d90"
+    },
+    "clientSecret": {
+      "value": "NemNibOrOg7"
+    },
+    "vmSize": {
+      "value": "Standard_DS2_v2"
+    },
+    "adminUsername": {
+      "value": "ubuntu"
+    },
+    "location": {
+      "value": "westus"
+    }
+  }
+}
